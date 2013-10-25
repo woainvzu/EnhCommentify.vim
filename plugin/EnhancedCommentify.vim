@@ -746,7 +746,7 @@ function s:GetFileTypeSettings(ft)
 	let b:ECcommentClose = '--%>'
     elseif fileType == 'eruby'
 	let b:ECcommentOpen = '<%#'
-	let b:ECcommentClose = '%\>'
+	let b:ECcommentClose = ''
     elseif fileType == 'model'
 	let b:ECcommentOpen = '$'
 	let b:ECcommentClose = '$'
